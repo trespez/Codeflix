@@ -2,7 +2,7 @@
     
     text-align: center;
     font-style: italic;
-    background-color: black;
+    background-color: var(--main-bg-color);
     /* T - R - B - L*/
     padding: 10px 10px 10px 10px;
     /* Y - X */
@@ -16,8 +16,13 @@
    /* margin: 80px 0px 0px 0px */
 }
 
+
+
 .footer p {
+    font-size: 1rem;
     margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 .footer .footer__company{
     font-style: normal;

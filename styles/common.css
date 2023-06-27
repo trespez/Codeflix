@@ -1,8 +1,17 @@
 :root {
+    --main-text-color: rgb(255,255,255);
     --main-bg-color: black;
+    --main-brand-color: rgb(169, 40, 40);
+    --main-brand-color-light: rgb(146, 63, 63);
+    font-size: 16px;
+    font-family: sans-serif;
   }
-  
+
   .main-bg {
-    color: white;
+    color: var(--main-text-color);
     background-color: var(--main-bg-color);
+    /*opacity: 1;*/
+  }
+  *{
+    box-sizing: border-box;
   }
