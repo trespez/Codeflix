@@ -3,6 +3,10 @@
     background-color: var(--main-bg-color);
     z-index: 999;
     top: 0;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__image{
     width: 120px;
