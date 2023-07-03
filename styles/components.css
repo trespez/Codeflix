@@ -6,6 +6,19 @@
     border: 1px solid var(--main-brand-color);
 }
 
-.hidden {
+.hidden-xs {
     display: none;
+}
+@media print {
+    * {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hidden-xs {
+        display: block;
+    }
+   
+    
 }
