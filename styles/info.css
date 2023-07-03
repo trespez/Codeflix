@@ -24,6 +24,25 @@ position: absolute;
 z-index: 1;
 top: 30px;
 width: 175px;
+}
+/*768px / 1024px* ajustar elementos a diferentes tamaños posibles*/
+@media (768px <= width) {
+    .info .info__video img {
+        width: 628px;
+    } 
+}
 
-
+@media (768px <= width) {
+    .info .info__video video {
+        top: 70px;
+        width: 384px;
+    } 
+}
+@media ( 1024px <= width){
+ .info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-width: 998px;
+ }
 }

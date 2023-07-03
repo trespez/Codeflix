@@ -8,11 +8,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.header__image{
+.header .header__image{
     width: 120px;
 }
+
 .header__image img {
-    width: 100%;
+
+}
+.header__image img {
+    width: 120px;
 
 }
 
@@ -26,4 +30,10 @@
 
 .header__nav .header__nav__list .header__nav__list__item > a {
     text-decoration: none;
+}
+/*adaptar imagen codeflix segun resolucion*/
+@media (768px <= width) {
+    .header__image {
+        width: 200px;
+    }
 }

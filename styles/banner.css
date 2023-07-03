@@ -29,3 +29,26 @@
    /* background-repeat: no-repeat;
     background-size: ;*/
 }
+
+@media (800px <= width) and (orientation: landscape){
+    .banner{
+        height : 55vh;
+    }
+}
+
+/*p:hover {
+     color:yellow;
+
+}
+@media (width <= 700px) {
+    p:hover {
+        color:inherit;
+            }
+}
+
+@media (hover: hover){
+  p:hover {
+    color:yellow;
+  }
+}
+*/
